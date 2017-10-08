@@ -1,0 +1,35 @@
+{
+  "name": "wv-min-node",
+  "version": "0.0.1",
+  "description": "Minimum Node Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wviveiro/wvMinNode.git"
+  },
+  "keywords": [
+    "node",
+    "server",
+    "minimum",
+    "setup"
+  ],
+  "author": "Wellington Viveiro (https://github.com/wviveiro)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wviveiro/wvMinNode/issues"
+  },
+  "homepage": "https://github.com/wviveiro/wvMinNode#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "gulp": "^3.9.1",
+    "gulp-watch": "^4.3.11",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.12.1",
+    "redux": "^3.7.2",
+    "socket.io": "^2.0.3"
+  }
+}
