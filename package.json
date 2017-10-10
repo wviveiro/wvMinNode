@@ -1,10 +1,13 @@
 {
   "name": "wv-min-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Minimum Node Server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_ENV=development gulp",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production git push heroku master",
+    "restart": "NODE_ENV=development node restart.js"
   },
   "repository": {
     "type": "git",
