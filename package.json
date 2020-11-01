@@ -28,10 +28,9 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.1",
-    "gulp": "^3.9.1",
-    "gulp-watch": "^4.3.11",
-    "mongodb": "^2.2.31",
-    "mongoose": "^4.12.1",
+    "gulp": "^4.0.2",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.11",
     "redux": "^3.7.2",
     "socket.io": "^2.0.3"
   }

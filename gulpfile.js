@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     node;
 
 
-var watch = require('gulp-watch');
+var {watch} = gulp;
 
 
 var myJsFiles = [
